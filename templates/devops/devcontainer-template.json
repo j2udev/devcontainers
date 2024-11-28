@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "name": "DevOps",
     "description": "A devops template",
-    "documentationURL": "https://github.com/j2udev/devcontainers/tree/main/src/devops",
+    "documentationURL": "https://github.com/j2udev/devcontainers/tree/main/templates/devops",
     "licenseURL": "https://github.com/j2udev/devcontainers/blob/main/LICENSE",
     "options": {
         "imageVariant": {

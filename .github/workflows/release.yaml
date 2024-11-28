@@ -18,5 +18,8 @@ jobs:
           publish-templates: "true"
           base-path-to-templates: "./templates"
           templates-namespace: "j2udev/devcontainers/templates"
+          publish-features: "true"
+          base-path-to-features: "./features"
+          features-namespace: "j2udev/devcontainers/features"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
