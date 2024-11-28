@@ -1,0 +1,23 @@
+{
+    "id": "devops",
+    "version": "0.1.0",
+    "name": "DevOps",
+    "description": "A devops template",
+    "documentationURL": "https://github.com/j2udev/devcontainers/tree/main/src/devops",
+    "licenseURL": "https://github.com/j2udev/devcontainers/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Ubuntu version (use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon):",
+            "proposals": [
+                "jammy",
+                "focal",
+                "bionic"
+            ],
+            "default": "jammy"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
