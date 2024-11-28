@@ -16,7 +16,7 @@ jobs:
         uses: devcontainers/action@v1.4.3
         with:
           publish-templates: "true"
-          base-path-to-templates: "./src"
+          base-path-to-templates: "./templates"
           templates-namespace: "j2udev/devcontainers/templates"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
