@@ -1,0 +1,23 @@
+{
+    "name": "Dev Containers",
+    "image": "mcr.microsoft.com/devcontainers/base:noble",
+    "customizations": {
+        "vscode": {
+            "extensions": ["esbenp.prettier-vscode"]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/j2udev/devcontainer-features/oh-my-posh:0": {
+            "theme": "j2udev"
+        },
+        "ghcr.io/j2udev/devcontainer-features/eza:0": {
+            "theme": "tokyonight"
+        },
+        "ghcr.io/j2udev/devcontainer-features/bat:0": {
+            "theme": "TwoDark"
+        },
+        "ghcr.io/j2udev/devcontainer-features/fzf:0": {},
+        "ghcr.io/j2udev/devcontainer-features/lazygit:0": {}
+    }
+}
