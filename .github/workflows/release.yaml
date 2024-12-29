@@ -27,3 +27,4 @@ jobs:
           imageName: ghcr.io/${{ github.repository }}/base
           imageTag: 0.1.0
           subFolder: base
+          platforms: linux/arm64,linux/amd64
