@@ -1,0 +1,17 @@
+{
+    "name": "Base with Features",
+    "image": "mcr.microsoft.com/devcontainers/base:noble",
+    "customizations": {
+        "vscode": {
+            "extensions": ["esbenp.prettier-vscode"]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+        "ghcr.io/j2udev/devcontainer-features/oh-my-posh:0": {},
+        "ghcr.io/j2udev/devcontainer-features/eza:0": {},
+        "ghcr.io/j2udev/devcontainer-features/bat:0": {},
+        "ghcr.io/j2udev/devcontainer-features/fzf:0": {},
+        "ghcr.io/j2udev/devcontainer-features/lazygit:0": {}
+    }
+}
