@@ -31,7 +31,7 @@ jobs:
           BUILDX_NO_DEFAULT_ATTESTATIONS: true
         with:
           imageName: ghcr.io/${{ github.repository }}/base
-          imageTag: 0.3.0,latest
+          imageTag: 0.3.1,0.3,0,latest
           subFolder: base
           platform: linux/arm64,linux/amd64
           push: always
