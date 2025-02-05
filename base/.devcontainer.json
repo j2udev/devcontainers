@@ -1,6 +1,6 @@
 {
     "name": "Base with Features",
-    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "image": "mcr.microsoft.com/devcontainers/base:noble",
     "customizations": {
         "vscode": {
             "extensions": ["esbenp.prettier-vscode"]
