@@ -10,7 +10,7 @@ jobs:
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
-    container: ghcr.io/j2udev/devcontainers/devcontainer-ide:0
+    container: ghcr.io/j2udev/devcontainers/devcontainer-ide:SNAPSHOT
     permissions:
       packages: write
     strategy:
