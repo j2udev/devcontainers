@@ -1,5 +1,4 @@
 {
-    "name": "Base with Features",
     "build": {
         "dockerfile": "Dockerfile"
     },
