@@ -9,7 +9,7 @@ on:
 jobs:
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
-    runs-on: ubuntu-24.04
+    runs-on: devcontainer-image-builder-ubuntu
     permissions:
       packages: write
     strategy:
