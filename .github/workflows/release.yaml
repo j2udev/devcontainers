@@ -9,8 +9,8 @@ on:
 jobs:
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
-    runs-on: ubuntu-latest
-    container: ghcr.io/j2udev/devcontainers/devcontainer-ide:SNAPSHOT
+    runs-on: ubuntu-22.04
+    # container: ghcr.io/j2udev/devcontainers/devcontainer-ide:SNAPSHOT
     permissions:
       packages: write
     strategy:
