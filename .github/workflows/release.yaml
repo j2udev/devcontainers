@@ -10,8 +10,6 @@ jobs:
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-24.04
-    # runs-on: ubuntu-22.04
-    # container: ghcr.io/j2udev/devcontainers/devcontainer-ide:SNAPSHOT
     permissions:
       packages: write
     strategy:
@@ -41,7 +39,7 @@ jobs:
           password: ${{ github.token }}
 
       - name: Build and Push
-        uses: devcontainers/ci@v0.3
+        uses: devcontainers/ci@v0.3.1900000417
         # env:
         #   BUILDX_NO_DEFAULT_ATTESTATIONS: true
         with:
