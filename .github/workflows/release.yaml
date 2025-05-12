@@ -9,7 +9,8 @@ on:
 jobs:
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
+    # runs-on: ubuntu-22.04
     # container: ghcr.io/j2udev/devcontainers/devcontainer-ide:SNAPSHOT
     permissions:
       packages: write
@@ -41,8 +42,8 @@ jobs:
 
       - name: Build and Push
         uses: devcontainers/ci@v0.3
-        env:
-          BUILDX_NO_DEFAULT_ATTESTATIONS: true
+        # env:
+        #   BUILDX_NO_DEFAULT_ATTESTATIONS: true
         with:
           imageName: ghcr.io/${{ github.repository }}/${{ matrix.devcontainer.folder }}
           imageTag: ${{ matrix.devcontainer.tags }}
